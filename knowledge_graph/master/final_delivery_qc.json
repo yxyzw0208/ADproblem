@@ -1,0 +1,81 @@
+{
+  "final_files": [
+    "01_Swiss预测靶点与AD交集.xlsx",
+    "02_中药-分子-靶点-AD完整路径.csv",
+    "03_剩余161个共同靶点网络可视化.pdf"
+  ],
+  "final_file_count": 3,
+  "xlsx": {
+    "headers": [
+      "中药小分子",
+      "UniProt编号",
+      "靶点名称",
+      "Gene Symbol",
+      "预测概率",
+      "查询网站"
+    ],
+    "header_match": true,
+    "rows": 280058,
+    "missing_by_column": {
+      "中药小分子": 0,
+      "UniProt编号": 0,
+      "靶点名称": 0,
+      "Gene Symbol": 0,
+      "预测概率": 0,
+      "查询网站": 0
+    },
+    "duplicate_name_target_keys": 0,
+    "unique_targets": 1035
+  },
+  "csv": {
+    "headers": [
+      "中药名称",
+      "中药分子",
+      "TCMSP MOL_ID",
+      "molecule_ID",
+      "TCMSP分子对应靶点名称",
+      "TCMSP分子对应靶点Gene Symbol",
+      "TCMSP分子对应靶点UniProt编号",
+      "Swiss预测靶点名称",
+      "Swiss预测靶点Gene Symbol",
+      "Swiss预测靶点UniProt编号",
+      "Swiss预测概率",
+      "Swiss查询网站",
+      "AD相关证明句（英文原文）",
+      "PMID",
+      "PubMed链接"
+    ],
+    "header_match": true,
+    "rows": 1072875,
+    "missing_by_column": {
+      "中药名称": 0,
+      "中药分子": 0,
+      "TCMSP MOL_ID": 0,
+      "molecule_ID": 0,
+      "TCMSP分子对应靶点名称": 0,
+      "TCMSP分子对应靶点Gene Symbol": 0,
+      "TCMSP分子对应靶点UniProt编号": 0,
+      "Swiss预测靶点名称": 0,
+      "Swiss预测靶点Gene Symbol": 0,
+      "Swiss预测靶点UniProt编号": 0,
+      "Swiss预测概率": 0,
+      "Swiss查询网站": 0,
+      "AD相关证明句（英文原文）": 0,
+      "PMID": 0,
+      "PubMed链接": 0
+    },
+    "duplicate_path_keys": 0,
+    "unique_targets": 1035,
+    "unique_herbs": 496,
+    "unique_molecules": 4092
+  },
+  "pdf": {
+    "pages": 161
+  },
+  "sha256": {
+    "01_Swiss预测靶点与AD交集.xlsx": "d2d2dc18842ca5e31b73b59d8bca8bb49547a480aaaa3d10303a6c73254808af",
+    "02_中药-分子-靶点-AD完整路径.csv": "cf798968482a1c1956f20d640c6b654b095a45c4d80343f47ffa2c587a05f7a4",
+    "03_剩余161个共同靶点网络可视化.pdf": "ad9c8363047ba7477af96ddf2d9b5d8c1c66e06822902117c80264f3bc8e2c1c"
+  },
+  "pass": true
+}

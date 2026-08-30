@@ -1,0 +1,7 @@
+{
+  "requested": 1035,
+  "returned_exact_primary_accessions": 1035,
+  "not_returned": [],
+  "endpoint": "https://rest.uniprot.org/uniprotkb/search",
+  "fields": "accession,protein_name,gene_primary,reviewed,organism_id"
+}

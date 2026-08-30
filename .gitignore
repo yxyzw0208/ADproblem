@@ -1,0 +1,27 @@
+# ---- 依赖与缓存 ----
+node_modules/
+__pycache__/
+*.pyc
+
+# ---- 临时/中间产物 ----
+tmp/
+outputs/
+*.log
+tmp_stp_post.html
+tmp_stp_queue.html
+
+# ---- 编辑器/工具 ----
+.claude/
+.vscode/
+.idea/
+
+# ---- 超大文件夹（超出 GitHub 限制，不上传）----
+中药—小分子—靶点—AD知识图谱/
+
+# ---- 冗余压缩包（源码已单独上传）----
+进行交集以及完整路径，绘图所需代码.zip
+
+# ---- 系统文件 ----
+Desktop.ini
+Thumbs.db
+.DS_Store

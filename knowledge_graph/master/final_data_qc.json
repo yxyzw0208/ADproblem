@@ -1,0 +1,42 @@
+{
+  "task1": {
+    "rows": 285504,
+    "unique_targets": 1035,
+    "unique_molecules_by_name": 4042
+  },
+  "task2": {
+    "rows": 1072875,
+    "unique_targets": 1035,
+    "unique_herbs": 496,
+    "unique_molecule_ids": 4092,
+    "missing_required_cells": {
+      "中药名称": 0,
+      "中药分子": 0,
+      "TCMSP MOL_ID": 0,
+      "molecule_ID": 0,
+      "TCMSP分子对应靶点名称": 0,
+      "TCMSP分子对应靶点Gene Symbol": 0,
+      "TCMSP分子对应靶点UniProt编号": 0,
+      "Swiss预测靶点名称": 0,
+      "Swiss预测靶点Gene Symbol": 0,
+      "Swiss预测靶点UniProt编号": 0,
+      "Swiss预测概率": 0,
+      "Swiss查询网站": 0,
+      "AD相关证明句（英文原文）": 0,
+      "PMID": 0,
+      "PubMed链接": 0
+    }
+  },
+  "tcmsp": {
+    "rows_missing_uniprot_before_supplement": 1318,
+    "rows_missing_uniprot_after_supplement": 0,
+    "aggregated_herb_molecule_keys": 15852
+  },
+  "join_inputs": {
+    "herb_molecule_rows": 15852,
+    "edge_rows": 285504
+  },
+  "uniprot_official_targets": 1035,
+  "ad_evidence_targets": 3699,
+  "unmapped_swiss_molecule_without_herb_source": "molecule_ID 8854 / STP03552"
+}

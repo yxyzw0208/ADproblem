@@ -1,0 +1,79 @@
+{
+  "generated_at_utc": "2026-08-18T04:34:12.282937+00:00",
+  "inputs": {
+    "D:\\codex\\大创\\小分子-靶点（swiss预测靶点）.xlsx": "41ce448b45989e81e621ad1cb0228ca4f53ddcfcf209060c7ff7415946f6746a",
+    "D:\\codex\\大创\\AD基因靶点及命名标准化\\04_UniProt靶点标准化\\采用uniprot去除靶点数据集（3699条数据记录）（数据集优先使用）.csv": "9443c342087ac7b6cce538c9bf15cc8e8bfbf0b2246a6b44e7e549301407cc52",
+    "D:\\codex\\大创\\AD_中药_小分子_作用靶点_全量表.xlsx": "8bc148d1c2694a6ff990eb6fe7df777d94bcce4b5f84bd7fff1afd93be36c375"
+  },
+  "swiss_workbook": {
+    "sheet": "sheet1.xml",
+    "headers": [
+      "原始行号（去重映射）",
+      "molecule_ID",
+      "SMILES",
+      "STP查询编号",
+      "预测排名",
+      "靶点名称",
+      "Gene Symbol",
+      "UniProt ID",
+      "ChEMBL ID",
+      "靶点类别",
+      "概率",
+      "Known actives (3D/2D)",
+      "STP Job ID",
+      "结果URL"
+    ],
+    "rows_excluding_header": 408174,
+    "unique_normalized_molecule_ID": 4093,
+    "unique_query_keys": 4093,
+    "unique_normalized_uniprot_accessions": 2167,
+    "blank_or_unparseable_uniprot_rows": 0,
+    "multi_accession_rows": 18381,
+    "blank_gene_symbol_rows": 18390,
+    "blank_probability_rows": 0,
+    "non_numeric_probability_rows": 0
+  },
+  "existing_AD_uniprot_master": {
+    "rows": 3699,
+    "unique_primary_accessions": 3699,
+    "unique_hgnc_symbols": 3681,
+    "accession_verification_counts": {
+      "official_uniprot_tsv": 3699
+    },
+    "source_scope": "ACCESSIBLE_SUBSET; see existing manifest.json"
+  },
+  "molecule_mapping": {
+    "source_workbook": "D:\\codex\\大创\\AD_中药_小分子_作用靶点_全量表.xlsx",
+    "source_sheet": "小分子汇总排名",
+    "unique_normalized_molecule_ID_in_project_index": 4209,
+    "source_rows_loaded": {
+      "AD_中药_小分子_作用靶点_全量表/小分子汇总排名": 4209
+    },
+    "resolution_counts": {
+      "molecule_ID_exact_unique": 408174
+    },
+    "rule": "exact normalized molecule_ID from full 4209-row molecule sheet; only when that key has multiple candidates use exact source SMILES; no name-only mapping"
+  },
+  "intersection": {
+    "expanded_matched_rows_before_edge_dedup": 288911,
+    "duplicate_molecule_target_edges_removed": 3407,
+    "rows_after_edge_dedup": 285504,
+    "unique_matched_uniprot_accessions": 1035,
+    "unique_matched_normalized_molecule_ID": 4093,
+    "ad_match_basis_counts": {
+      "UniProt_primary_accession_exact": 288911
+    },
+    "gene_symbol_consistency_counts": {
+      "Swiss_Gene_Symbol缺失，采用AD_HGNC": 24157,
+      "Swiss与AD_Gene_Symbol一致": 264754
+    },
+    "unmatched_or_unmapped_source_rows": 132298,
+    "deduplication_key": "(normalized molecule_ID, normalized UniProt primary accession); retain highest Swiss probability; tie -> earliest source row",
+    "uniprot_normalization": "extract valid accession token(s), strip isoform suffix, exact match against existing official-UniProt-verified AD primary accession first; Gene Symbol unique fallback only if Swiss accession is missing/unparseable"
+  },
+  "outputs": {
+    "delivery_csv": "D:\\codex\\大创\\本轮任务_20260818\\子任务1\\Swiss预测靶点_AD共同靶点_规范化去重表.csv",
+    "edge_audit_csv": "D:\\codex\\大创\\本轮任务_20260818\\子任务1\\Swiss_AD交集_逐边审计.csv",
+    "unmatched_csv": "D:\\codex\\大创\\本轮任务_20260818\\子任务1\\Swiss_AD交集_未映射或未匹配记录.csv"
+  }
+}

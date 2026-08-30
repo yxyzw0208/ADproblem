@@ -1,0 +1,6 @@
+﻿TCMSP靶点Gene Symbol,UniProt编号,UniProt推荐蛋白名称,UniProt主Gene Symbol,UniProt审核状态,Organism ID,UniProt查询链接,查询状态
+APOE,P02649,Apolipoprotein E (Apo-E),APOE,reviewed,9606,https://www.uniprot.org/uniprotkb/P02649,unique_exact
+BCHE,P06276,Cholinesterase (EC 3.1.1.8) (Acylcholine acylhydrolase) (Butyrylcholine esterase) (Choline esterase II) (Pseudocholinesterase),BCHE,reviewed,9606,https://www.uniprot.org/uniprotkb/P06276,unique_exact
+CES2,O00748,Cocaine esterase (EC 3.1.1.84) (Carboxylesterase 2) (CE-2) (hCE-2) (EC 3.1.1.1) (Methylumbelliferyl-acetate deacetylase 2) (EC 3.1.1.56),CES2,reviewed,9606,https://www.uniprot.org/uniprotkb/O00748,unique_exact
+CHRNA4,P43681,Neuronal acetylcholine receptor subunit alpha-4,CHRNA4,reviewed,9606,https://www.uniprot.org/uniprotkb/P43681,unique_exact
+KYNU,Q16719,Kynureninase (EC 3.7.1.3) (L-kynurenine hydrolase),KYNU,reviewed,9606,https://www.uniprot.org/uniprotkb/Q16719,unique_exact

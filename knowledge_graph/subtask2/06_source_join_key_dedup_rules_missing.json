@@ -1,0 +1,54 @@
+{
+  "source_files": {
+    "current_swiss": "D:\\codex\\大创\\小分子-靶点（swiss预测靶点）.xlsx",
+    "full_tcmsp_workbook": "D:\\codex\\大创\\AD_中药_小分子_作用靶点_全量表.xlsx",
+    "tcmsp_uniprot_dictionary_13_targets": "D:\\codex\\大创\\中药小分子靶点_UniProt标准化结果_20260810\\中药小分子靶点_UniProt标准化.csv",
+    "ad_uniprot_evidence": "D:\\codex\\大创\\AD基因靶点及命名标准化\\04_UniProt靶点标准化\\采用uniprot去除靶点数据集（3699条数据记录）（数据集优先使用）.csv"
+  },
+  "join_contract": {
+    "primary_key": "规范化 molecule_ID（去除空白及纯数字 .0 尾缀）",
+    "smiles_rule": "全量源表没有SMILES；仅保留Swiss原始SMILES和原始行号审计，不作为连接键",
+    "raw_row_rule": "原始行号仅用于审计；不以其推断中药来源",
+    "target_ad_filter": "由任务1提供本轮 Swiss-UniProt 与 AD-UniProt 交集后，以 Swiss UniProt ID 精确内连接"
+  },
+  "deduplication": {
+    "herb_molecule": [
+      "中药中文名",
+      "TCMSP MOL_ID"
+    ],
+    "tcmsp_target": [
+      "中药中文名",
+      "TCMSP MOL_ID",
+      "TCMSP靶点Gene Symbol",
+      "TCMSP靶点UniProt编号"
+    ],
+    "ad_evidence": [
+      "AD靶点UniProt编号"
+    ],
+    "swiss_molecule_summary": [
+      "原始行号（去重映射）",
+      "molecule_ID",
+      "STP查询编号"
+    ]
+  },
+  "counts": {
+    "new_swiss_summary_rows": 4093,
+    "new_swiss_unique_molecule_ids": 4093,
+    "herb_molecule_edges": 15852,
+    "herb_count": 499,
+    "molecule_count": 4208,
+    "tcmsp_target_edges": 32855,
+    "tcmsp_target_missing_uniprot": 1318,
+    "ad_evidence_uniprot_count": 3699,
+    "swiss_molecule_keys_matched": 4092,
+    "swiss_molecule_keys_unmatched": 1,
+    "swiss_smiles_not_joined": 4093,
+    "swiss_molecule_lookup_rows": 4093
+  },
+  "missing_items": {
+    "current_swiss_summary_missing_top1_gene_symbol": 0,
+    "current_swiss_summary_missing_top1_probability": 0,
+    "ad_evidence_missing_sentence": 0,
+    "ad_evidence_missing_pmid": 0
+  }
+}

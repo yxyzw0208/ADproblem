@@ -1,0 +1,1638 @@
+{
+  "backend": "Python/matplotlib",
+  "font": "Microsoft YaHei",
+  "input": {
+    "path": "本轮任务_20260818\\子任务3\\仅剩余靶点_绘图输入.csv",
+    "sha256": "4f2da1b7982973ce8ae96db9e5bd45707f76e38ac8cc3aa2024ffb0c2fd65fb4"
+  },
+  "output": {
+    "path": "最终交付_SwissAD全分子_20260818\\03_剩余161个共同靶点网络可视化.pdf",
+    "sha256": "ad9c8363047ba7477af96ddf2d9b5d8c1c66e06822902117c80264f3bc8e2c1c"
+  },
+  "data_mapping_and_counts": {
+    "source_rows": 1561,
+    "valid_relation_rows_after_deduplication": 1561,
+    "duplicate_or_incomplete_rows_removed": 0,
+    "incomplete_rows_removed": 0,
+    "invalid_probability_rows_sorted_last": 0,
+    "column_herb": "中药名称",
+    "column_molecule": "中药分子",
+    "column_target": "Swiss预测靶点Gene Symbol",
+    "column_accession": "Swiss预测靶点UniProt编号",
+    "column_probability": "Swiss预测概率"
+  },
+  "pages": 161,
+  "per_target": {
+    "A0AVT1": {
+      "herbs": 1,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 1,
+      "displayed_relations": 1,
+      "full_relations": 1,
+      "full_herbs": 1,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "O00187": {
+      "herbs": 2,
+      "unique_molecules": 2,
+      "visual_molecule_copies": 2,
+      "displayed_relations": 2,
+      "full_relations": 2,
+      "full_herbs": 2,
+      "full_unique_molecules": 2,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "O00231": {
+      "herbs": 1,
+      "unique_molecules": 8,
+      "visual_molecule_copies": 8,
+      "displayed_relations": 8,
+      "full_relations": 9,
+      "full_herbs": 1,
+      "full_unique_molecules": 9,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "O00232": {
+      "herbs": 1,
+      "unique_molecules": 8,
+      "visual_molecule_copies": 8,
+      "displayed_relations": 8,
+      "full_relations": 9,
+      "full_herbs": 1,
+      "full_unique_molecules": 9,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "O00429": {
+      "herbs": 1,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 1,
+      "displayed_relations": 1,
+      "full_relations": 1,
+      "full_herbs": 1,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "O00462": {
+      "herbs": 1,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 1,
+      "displayed_relations": 1,
+      "full_relations": 1,
+      "full_herbs": 1,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "O00560": {
+      "herbs": 1,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 1,
+      "displayed_relations": 1,
+      "full_relations": 1,
+      "full_herbs": 1,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "O14672": {
+      "herbs": 6,
+      "unique_molecules": 7,
+      "visual_molecule_copies": 7,
+      "displayed_relations": 7,
+      "full_relations": 7,
+      "full_herbs": 6,
+      "full_unique_molecules": 7,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "O15228": {
+      "herbs": 5,
+      "unique_molecules": 4,
+      "visual_molecule_copies": 6,
+      "displayed_relations": 6,
+      "full_relations": 6,
+      "full_herbs": 5,
+      "full_unique_molecules": 4,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "O15264": {
+      "herbs": 6,
+      "unique_molecules": 5,
+      "visual_molecule_copies": 7,
+      "displayed_relations": 7,
+      "full_relations": 7,
+      "full_herbs": 6,
+      "full_unique_molecules": 5,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "O15269": {
+      "herbs": 6,
+      "unique_molecules": 3,
+      "visual_molecule_copies": 6,
+      "displayed_relations": 6,
+      "full_relations": 18,
+      "full_herbs": 18,
+      "full_unique_molecules": 6,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "O15294": {
+      "herbs": 6,
+      "unique_molecules": 5,
+      "visual_molecule_copies": 9,
+      "displayed_relations": 9,
+      "full_relations": 14,
+      "full_herbs": 11,
+      "full_unique_molecules": 6,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "O15552": {
+      "herbs": 3,
+      "unique_molecules": 3,
+      "visual_molecule_copies": 3,
+      "displayed_relations": 3,
+      "full_relations": 3,
+      "full_herbs": 3,
+      "full_unique_molecules": 3,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "O43148": {
+      "herbs": 6,
+      "unique_molecules": 5,
+      "visual_molecule_copies": 7,
+      "displayed_relations": 7,
+      "full_relations": 25,
+      "full_herbs": 24,
+      "full_unique_molecules": 6,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "O43194": {
+      "herbs": 1,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 1,
+      "displayed_relations": 1,
+      "full_relations": 1,
+      "full_herbs": 1,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "O43463": {
+      "herbs": 6,
+      "unique_molecules": 3,
+      "visual_molecule_copies": 7,
+      "displayed_relations": 7,
+      "full_relations": 22,
+      "full_herbs": 21,
+      "full_unique_molecules": 3,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "O43464": {
+      "herbs": 1,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 1,
+      "displayed_relations": 1,
+      "full_relations": 1,
+      "full_herbs": 1,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "O43511": {
+      "herbs": 1,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 1,
+      "displayed_relations": 1,
+      "full_relations": 1,
+      "full_herbs": 1,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "O43525": {
+      "herbs": 4,
+      "unique_molecules": 3,
+      "visual_molecule_copies": 4,
+      "displayed_relations": 4,
+      "full_relations": 4,
+      "full_herbs": 4,
+      "full_unique_molecules": 3,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "O43772": {
+      "herbs": 1,
+      "unique_molecules": 6,
+      "visual_molecule_copies": 6,
+      "displayed_relations": 6,
+      "full_relations": 6,
+      "full_herbs": 1,
+      "full_unique_molecules": 6,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "O60391": {
+      "herbs": 1,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 1,
+      "displayed_relations": 1,
+      "full_relations": 1,
+      "full_herbs": 1,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "O60906": {
+      "herbs": 6,
+      "unique_molecules": 5,
+      "visual_molecule_copies": 6,
+      "displayed_relations": 6,
+      "full_relations": 7,
+      "full_herbs": 7,
+      "full_unique_molecules": 6,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "O75581": {
+      "herbs": 1,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 1,
+      "displayed_relations": 1,
+      "full_relations": 1,
+      "full_herbs": 1,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "O95251": {
+      "herbs": 2,
+      "unique_molecules": 2,
+      "visual_molecule_copies": 2,
+      "displayed_relations": 2,
+      "full_relations": 2,
+      "full_herbs": 2,
+      "full_unique_molecules": 2,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "O95352": {
+      "herbs": 6,
+      "unique_molecules": 4,
+      "visual_molecule_copies": 8,
+      "displayed_relations": 8,
+      "full_relations": 13,
+      "full_herbs": 11,
+      "full_unique_molecules": 6,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "O95544": {
+      "herbs": 6,
+      "unique_molecules": 19,
+      "visual_molecule_copies": 32,
+      "displayed_relations": 32,
+      "full_relations": 148,
+      "full_herbs": 77,
+      "full_unique_molecules": 32,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "O95630": {
+      "herbs": 6,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 6,
+      "displayed_relations": 6,
+      "full_relations": 12,
+      "full_herbs": 12,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P00441": {
+      "herbs": 4,
+      "unique_molecules": 4,
+      "visual_molecule_copies": 5,
+      "displayed_relations": 5,
+      "full_relations": 5,
+      "full_herbs": 4,
+      "full_unique_molecules": 4,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P00480": {
+      "herbs": 6,
+      "unique_molecules": 7,
+      "visual_molecule_copies": 9,
+      "displayed_relations": 9,
+      "full_relations": 17,
+      "full_herbs": 14,
+      "full_unique_molecules": 8,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P00558": {
+      "herbs": 1,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 1,
+      "displayed_relations": 1,
+      "full_relations": 1,
+      "full_herbs": 1,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P01130": {
+      "herbs": 6,
+      "unique_molecules": 5,
+      "visual_molecule_copies": 9,
+      "displayed_relations": 9,
+      "full_relations": 9,
+      "full_herbs": 6,
+      "full_unique_molecules": 5,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P01730": {
+      "herbs": 1,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 1,
+      "displayed_relations": 1,
+      "full_relations": 1,
+      "full_herbs": 1,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P01911": {
+      "herbs": 3,
+      "unique_molecules": 2,
+      "visual_molecule_copies": 3,
+      "displayed_relations": 3,
+      "full_relations": 3,
+      "full_herbs": 3,
+      "full_unique_molecules": 2,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P04114": {
+      "herbs": 6,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 6,
+      "displayed_relations": 6,
+      "full_relations": 24,
+      "full_herbs": 24,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P04180": {
+      "herbs": 1,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 1,
+      "displayed_relations": 1,
+      "full_relations": 1,
+      "full_herbs": 1,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P04792": {
+      "herbs": 1,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 1,
+      "displayed_relations": 1,
+      "full_relations": 1,
+      "full_herbs": 1,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P05230": {
+      "herbs": 6,
+      "unique_molecules": 5,
+      "visual_molecule_copies": 8,
+      "displayed_relations": 8,
+      "full_relations": 14,
+      "full_herbs": 12,
+      "full_unique_molecules": 7,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P06702": {
+      "herbs": 5,
+      "unique_molecules": 2,
+      "visual_molecule_copies": 5,
+      "displayed_relations": 5,
+      "full_relations": 5,
+      "full_herbs": 5,
+      "full_unique_molecules": 2,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P06733": {
+      "herbs": 6,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 6,
+      "displayed_relations": 6,
+      "full_relations": 19,
+      "full_herbs": 19,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P06858": {
+      "herbs": 1,
+      "unique_molecules": 3,
+      "visual_molecule_copies": 3,
+      "displayed_relations": 3,
+      "full_relations": 3,
+      "full_herbs": 1,
+      "full_unique_molecules": 3,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P07998": {
+      "herbs": 6,
+      "unique_molecules": 5,
+      "visual_molecule_copies": 6,
+      "displayed_relations": 6,
+      "full_relations": 7,
+      "full_herbs": 7,
+      "full_unique_molecules": 6,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P08686": {
+      "herbs": 1,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 1,
+      "displayed_relations": 1,
+      "full_relations": 1,
+      "full_herbs": 1,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P08865": {
+      "herbs": 6,
+      "unique_molecules": 19,
+      "visual_molecule_copies": 32,
+      "displayed_relations": 32,
+      "full_relations": 173,
+      "full_herbs": 97,
+      "full_unique_molecules": 33,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P09038": {
+      "herbs": 6,
+      "unique_molecules": 3,
+      "visual_molecule_copies": 7,
+      "displayed_relations": 7,
+      "full_relations": 11,
+      "full_herbs": 10,
+      "full_unique_molecules": 3,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P09848": {
+      "herbs": 3,
+      "unique_molecules": 3,
+      "visual_molecule_copies": 3,
+      "displayed_relations": 3,
+      "full_relations": 3,
+      "full_herbs": 3,
+      "full_unique_molecules": 3,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P11150": {
+      "herbs": 1,
+      "unique_molecules": 3,
+      "visual_molecule_copies": 3,
+      "displayed_relations": 3,
+      "full_relations": 3,
+      "full_herbs": 1,
+      "full_unique_molecules": 3,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P11168": {
+      "herbs": 6,
+      "unique_molecules": 5,
+      "visual_molecule_copies": 6,
+      "displayed_relations": 6,
+      "full_relations": 7,
+      "full_herbs": 7,
+      "full_unique_molecules": 6,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P11169": {
+      "herbs": 6,
+      "unique_molecules": 9,
+      "visual_molecule_copies": 9,
+      "displayed_relations": 9,
+      "full_relations": 11,
+      "full_herbs": 8,
+      "full_unique_molecules": 10,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P11215": {
+      "herbs": 4,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 4,
+      "displayed_relations": 4,
+      "full_relations": 4,
+      "full_herbs": 4,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P13051": {
+      "herbs": 1,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 1,
+      "displayed_relations": 1,
+      "full_relations": 1,
+      "full_herbs": 1,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P14598": {
+      "herbs": 4,
+      "unique_molecules": 3,
+      "visual_molecule_copies": 4,
+      "displayed_relations": 4,
+      "full_relations": 4,
+      "full_herbs": 4,
+      "full_unique_molecules": 3,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P14672": {
+      "herbs": 6,
+      "unique_molecules": 8,
+      "visual_molecule_copies": 8,
+      "displayed_relations": 8,
+      "full_relations": 10,
+      "full_herbs": 8,
+      "full_unique_molecules": 9,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P14778": {
+      "herbs": 2,
+      "unique_molecules": 2,
+      "visual_molecule_copies": 3,
+      "displayed_relations": 3,
+      "full_relations": 3,
+      "full_herbs": 2,
+      "full_unique_molecules": 2,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P15328": {
+      "herbs": 3,
+      "unique_molecules": 3,
+      "visual_molecule_copies": 3,
+      "displayed_relations": 3,
+      "full_relations": 3,
+      "full_herbs": 3,
+      "full_unique_molecules": 3,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P17752": {
+      "herbs": 6,
+      "unique_molecules": 2,
+      "visual_molecule_copies": 6,
+      "displayed_relations": 6,
+      "full_relations": 10,
+      "full_herbs": 10,
+      "full_unique_molecules": 4,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P17936": {
+      "herbs": 6,
+      "unique_molecules": 9,
+      "visual_molecule_copies": 13,
+      "displayed_relations": 13,
+      "full_relations": 30,
+      "full_herbs": 23,
+      "full_unique_molecules": 15,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P18065": {
+      "herbs": 2,
+      "unique_molecules": 3,
+      "visual_molecule_copies": 3,
+      "displayed_relations": 3,
+      "full_relations": 3,
+      "full_herbs": 2,
+      "full_unique_molecules": 3,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P18848": {
+      "herbs": 1,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 1,
+      "displayed_relations": 1,
+      "full_relations": 1,
+      "full_herbs": 1,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P19367": {
+      "herbs": 1,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 1,
+      "displayed_relations": 1,
+      "full_relations": 1,
+      "full_herbs": 1,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P19438": {
+      "herbs": 3,
+      "unique_molecules": 3,
+      "visual_molecule_copies": 3,
+      "displayed_relations": 3,
+      "full_relations": 3,
+      "full_herbs": 3,
+      "full_unique_molecules": 3,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P19484": {
+      "herbs": 2,
+      "unique_molecules": 3,
+      "visual_molecule_copies": 3,
+      "displayed_relations": 3,
+      "full_relations": 3,
+      "full_herbs": 2,
+      "full_unique_molecules": 3,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P20273": {
+      "herbs": 6,
+      "unique_molecules": 6,
+      "visual_molecule_copies": 8,
+      "displayed_relations": 8,
+      "full_relations": 8,
+      "full_herbs": 6,
+      "full_unique_molecules": 6,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P20815": {
+      "herbs": 1,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 1,
+      "displayed_relations": 1,
+      "full_relations": 1,
+      "full_herbs": 1,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P20916": {
+      "herbs": 1,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 1,
+      "displayed_relations": 1,
+      "full_relations": 1,
+      "full_herbs": 1,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P21817": {
+      "herbs": 6,
+      "unique_molecules": 3,
+      "visual_molecule_copies": 7,
+      "displayed_relations": 7,
+      "full_relations": 9,
+      "full_herbs": 8,
+      "full_unique_molecules": 3,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P22612": {
+      "herbs": 4,
+      "unique_molecules": 4,
+      "visual_molecule_copies": 5,
+      "displayed_relations": 5,
+      "full_relations": 5,
+      "full_herbs": 4,
+      "full_unique_molecules": 4,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P24592": {
+      "herbs": 2,
+      "unique_molecules": 3,
+      "visual_molecule_copies": 3,
+      "displayed_relations": 3,
+      "full_relations": 3,
+      "full_herbs": 2,
+      "full_unique_molecules": 3,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P28065": {
+      "herbs": 6,
+      "unique_molecules": 14,
+      "visual_molecule_copies": 14,
+      "displayed_relations": 14,
+      "full_relations": 16,
+      "full_herbs": 6,
+      "full_unique_molecules": 16,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P28300": {
+      "herbs": 6,
+      "unique_molecules": 5,
+      "visual_molecule_copies": 7,
+      "displayed_relations": 7,
+      "full_relations": 8,
+      "full_herbs": 7,
+      "full_unique_molecules": 6,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P28340": {
+      "herbs": 3,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 3,
+      "displayed_relations": 3,
+      "full_relations": 3,
+      "full_herbs": 3,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P29401": {
+      "herbs": 6,
+      "unique_molecules": 2,
+      "visual_molecule_copies": 6,
+      "displayed_relations": 6,
+      "full_relations": 14,
+      "full_herbs": 14,
+      "full_unique_molecules": 2,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P30519": {
+      "herbs": 1,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 1,
+      "displayed_relations": 1,
+      "full_relations": 1,
+      "full_herbs": 1,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P34896": {
+      "herbs": 2,
+      "unique_molecules": 2,
+      "visual_molecule_copies": 2,
+      "displayed_relations": 2,
+      "full_relations": 2,
+      "full_herbs": 2,
+      "full_unique_molecules": 2,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P34947": {
+      "herbs": 4,
+      "unique_molecules": 5,
+      "visual_molecule_copies": 5,
+      "displayed_relations": 5,
+      "full_relations": 5,
+      "full_herbs": 4,
+      "full_unique_molecules": 5,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P35998": {
+      "herbs": 1,
+      "unique_molecules": 8,
+      "visual_molecule_copies": 8,
+      "displayed_relations": 8,
+      "full_relations": 9,
+      "full_herbs": 1,
+      "full_unique_molecules": 9,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P36896": {
+      "herbs": 6,
+      "unique_molecules": 4,
+      "visual_molecule_copies": 7,
+      "displayed_relations": 7,
+      "full_relations": 7,
+      "full_herbs": 6,
+      "full_unique_molecules": 4,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P37173": {
+      "herbs": 6,
+      "unique_molecules": 4,
+      "visual_molecule_copies": 6,
+      "displayed_relations": 6,
+      "full_relations": 12,
+      "full_herbs": 12,
+      "full_unique_molecules": 6,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P38571": {
+      "herbs": 1,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 1,
+      "displayed_relations": 1,
+      "full_relations": 1,
+      "full_herbs": 1,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P40189": {
+      "herbs": 6,
+      "unique_molecules": 2,
+      "visual_molecule_copies": 6,
+      "displayed_relations": 6,
+      "full_relations": 6,
+      "full_herbs": 6,
+      "full_unique_molecules": 2,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P40926": {
+      "herbs": 1,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 1,
+      "displayed_relations": 1,
+      "full_relations": 1,
+      "full_herbs": 1,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P40933": {
+      "herbs": 6,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 6,
+      "displayed_relations": 6,
+      "full_relations": 12,
+      "full_herbs": 12,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P41231": {
+      "herbs": 6,
+      "unique_molecules": 8,
+      "visual_molecule_copies": 12,
+      "displayed_relations": 12,
+      "full_relations": 48,
+      "full_herbs": 39,
+      "full_unique_molecules": 13,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P41440": {
+      "herbs": 2,
+      "unique_molecules": 2,
+      "visual_molecule_copies": 2,
+      "displayed_relations": 2,
+      "full_relations": 2,
+      "full_herbs": 2,
+      "full_unique_molecules": 2,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P42684": {
+      "herbs": 2,
+      "unique_molecules": 3,
+      "visual_molecule_copies": 4,
+      "displayed_relations": 4,
+      "full_relations": 4,
+      "full_herbs": 2,
+      "full_unique_molecules": 3,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P43403": {
+      "herbs": 3,
+      "unique_molecules": 3,
+      "visual_molecule_copies": 3,
+      "displayed_relations": 3,
+      "full_relations": 3,
+      "full_herbs": 3,
+      "full_unique_molecules": 3,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P48546": {
+      "herbs": 1,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 1,
+      "displayed_relations": 1,
+      "full_relations": 1,
+      "full_herbs": 1,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P48651": {
+      "herbs": 1,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 1,
+      "displayed_relations": 1,
+      "full_relations": 1,
+      "full_herbs": 1,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P48735": {
+      "herbs": 1,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 1,
+      "displayed_relations": 1,
+      "full_relations": 1,
+      "full_herbs": 1,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P49281": {
+      "herbs": 1,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 1,
+      "displayed_relations": 1,
+      "full_relations": 1,
+      "full_herbs": 1,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P49662": {
+      "herbs": 1,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 1,
+      "displayed_relations": 1,
+      "full_relations": 1,
+      "full_herbs": 1,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P49773": {
+      "herbs": 6,
+      "unique_molecules": 5,
+      "visual_molecule_copies": 8,
+      "displayed_relations": 8,
+      "full_relations": 28,
+      "full_herbs": 26,
+      "full_unique_molecules": 8,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P49961": {
+      "herbs": 3,
+      "unique_molecules": 3,
+      "visual_molecule_copies": 3,
+      "displayed_relations": 3,
+      "full_relations": 3,
+      "full_herbs": 3,
+      "full_unique_molecules": 3,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P50053": {
+      "herbs": 1,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 1,
+      "displayed_relations": 1,
+      "full_relations": 1,
+      "full_herbs": 1,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P51149": {
+      "herbs": 6,
+      "unique_molecules": 5,
+      "visual_molecule_copies": 7,
+      "displayed_relations": 7,
+      "full_relations": 14,
+      "full_herbs": 13,
+      "full_unique_molecules": 6,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P51178": {
+      "herbs": 1,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 1,
+      "displayed_relations": 1,
+      "full_relations": 1,
+      "full_herbs": 1,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P51582": {
+      "herbs": 6,
+      "unique_molecules": 6,
+      "visual_molecule_copies": 9,
+      "displayed_relations": 9,
+      "full_relations": 26,
+      "full_herbs": 23,
+      "full_unique_molecules": 10,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P51878": {
+      "herbs": 6,
+      "unique_molecules": 2,
+      "visual_molecule_copies": 6,
+      "displayed_relations": 6,
+      "full_relations": 12,
+      "full_herbs": 12,
+      "full_unique_molecules": 2,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P54098": {
+      "herbs": 6,
+      "unique_molecules": 4,
+      "visual_molecule_copies": 8,
+      "displayed_relations": 8,
+      "full_relations": 11,
+      "full_herbs": 9,
+      "full_unique_molecules": 4,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P55036": {
+      "herbs": 1,
+      "unique_molecules": 8,
+      "visual_molecule_copies": 8,
+      "displayed_relations": 8,
+      "full_relations": 9,
+      "full_herbs": 1,
+      "full_unique_molecules": 9,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P57764": {
+      "herbs": 1,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 1,
+      "displayed_relations": 1,
+      "full_relations": 1,
+      "full_herbs": 1,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P60174": {
+      "herbs": 6,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 6,
+      "displayed_relations": 6,
+      "full_relations": 19,
+      "full_herbs": 19,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P61586": {
+      "herbs": 5,
+      "unique_molecules": 3,
+      "visual_molecule_copies": 5,
+      "displayed_relations": 5,
+      "full_relations": 5,
+      "full_herbs": 5,
+      "full_unique_molecules": 3,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P62191": {
+      "herbs": 1,
+      "unique_molecules": 8,
+      "visual_molecule_copies": 8,
+      "displayed_relations": 8,
+      "full_relations": 9,
+      "full_herbs": 1,
+      "full_unique_molecules": 9,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P62195": {
+      "herbs": 1,
+      "unique_molecules": 8,
+      "visual_molecule_copies": 8,
+      "displayed_relations": 8,
+      "full_relations": 9,
+      "full_herbs": 1,
+      "full_unique_molecules": 9,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P62330": {
+      "herbs": 1,
+      "unique_molecules": 2,
+      "visual_molecule_copies": 2,
+      "displayed_relations": 2,
+      "full_relations": 2,
+      "full_herbs": 1,
+      "full_unique_molecules": 2,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P63165": {
+      "herbs": 3,
+      "unique_molecules": 3,
+      "visual_molecule_copies": 3,
+      "displayed_relations": 3,
+      "full_relations": 3,
+      "full_herbs": 3,
+      "full_unique_molecules": 3,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P78352": {
+      "herbs": 1,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 1,
+      "displayed_relations": 1,
+      "full_relations": 1,
+      "full_herbs": 1,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "P78362": {
+      "herbs": 1,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 1,
+      "displayed_relations": 1,
+      "full_relations": 1,
+      "full_herbs": 1,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q01668": {
+      "herbs": 2,
+      "unique_molecules": 2,
+      "visual_molecule_copies": 2,
+      "displayed_relations": 2,
+      "full_relations": 2,
+      "full_herbs": 2,
+      "full_unique_molecules": 2,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q02790": {
+      "herbs": 6,
+      "unique_molecules": 13,
+      "visual_molecule_copies": 13,
+      "displayed_relations": 13,
+      "full_relations": 21,
+      "full_herbs": 9,
+      "full_unique_molecules": 20,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q07812": {
+      "herbs": 3,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 3,
+      "displayed_relations": 3,
+      "full_relations": 3,
+      "full_herbs": 3,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q08209": {
+      "herbs": 6,
+      "unique_molecules": 7,
+      "visual_molecule_copies": 8,
+      "displayed_relations": 8,
+      "full_relations": 8,
+      "full_herbs": 6,
+      "full_unique_molecules": 7,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q08289": {
+      "herbs": 1,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 1,
+      "displayed_relations": 1,
+      "full_relations": 1,
+      "full_herbs": 1,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q12778": {
+      "herbs": 6,
+      "unique_molecules": 5,
+      "visual_molecule_copies": 12,
+      "displayed_relations": 12,
+      "full_relations": 17,
+      "full_herbs": 11,
+      "full_unique_molecules": 5,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q12830": {
+      "herbs": 3,
+      "unique_molecules": 2,
+      "visual_molecule_copies": 3,
+      "displayed_relations": 3,
+      "full_relations": 3,
+      "full_herbs": 3,
+      "full_unique_molecules": 2,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q12931": {
+      "herbs": 6,
+      "unique_molecules": 5,
+      "visual_molecule_copies": 6,
+      "displayed_relations": 6,
+      "full_relations": 7,
+      "full_herbs": 7,
+      "full_unique_molecules": 6,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q13093": {
+      "herbs": 6,
+      "unique_molecules": 16,
+      "visual_molecule_copies": 17,
+      "displayed_relations": 17,
+      "full_relations": 39,
+      "full_herbs": 28,
+      "full_unique_molecules": 20,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q13200": {
+      "herbs": 1,
+      "unique_molecules": 8,
+      "visual_molecule_copies": 8,
+      "displayed_relations": 8,
+      "full_relations": 9,
+      "full_herbs": 1,
+      "full_unique_molecules": 9,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q13510": {
+      "herbs": 6,
+      "unique_molecules": 9,
+      "visual_molecule_copies": 10,
+      "displayed_relations": 10,
+      "full_relations": 12,
+      "full_herbs": 8,
+      "full_unique_molecules": 9,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q13541": {
+      "herbs": 2,
+      "unique_molecules": 2,
+      "visual_molecule_copies": 2,
+      "displayed_relations": 2,
+      "full_relations": 2,
+      "full_herbs": 2,
+      "full_unique_molecules": 2,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q13564": {
+      "herbs": 6,
+      "unique_molecules": 2,
+      "visual_molecule_copies": 6,
+      "displayed_relations": 6,
+      "full_relations": 18,
+      "full_herbs": 18,
+      "full_unique_molecules": 4,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q13976": {
+      "herbs": 6,
+      "unique_molecules": 7,
+      "visual_molecule_copies": 8,
+      "displayed_relations": 8,
+      "full_relations": 11,
+      "full_herbs": 9,
+      "full_unique_molecules": 8,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q14191": {
+      "herbs": 5,
+      "unique_molecules": 3,
+      "visual_molecule_copies": 6,
+      "displayed_relations": 6,
+      "full_relations": 6,
+      "full_herbs": 5,
+      "full_unique_molecules": 3,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q15257": {
+      "herbs": 6,
+      "unique_molecules": 3,
+      "visual_molecule_copies": 6,
+      "displayed_relations": 6,
+      "full_relations": 7,
+      "full_herbs": 7,
+      "full_unique_molecules": 3,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q15465": {
+      "herbs": 6,
+      "unique_molecules": 9,
+      "visual_molecule_copies": 9,
+      "displayed_relations": 9,
+      "full_relations": 11,
+      "full_herbs": 8,
+      "full_unique_molecules": 10,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q15661": {
+      "herbs": 1,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 1,
+      "displayed_relations": 1,
+      "full_relations": 1,
+      "full_herbs": 1,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q16186": {
+      "herbs": 1,
+      "unique_molecules": 8,
+      "visual_molecule_copies": 8,
+      "displayed_relations": 8,
+      "full_relations": 9,
+      "full_herbs": 1,
+      "full_unique_molecules": 9,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q16581": {
+      "herbs": 6,
+      "unique_molecules": 2,
+      "visual_molecule_copies": 12,
+      "displayed_relations": 12,
+      "full_relations": 26,
+      "full_herbs": 17,
+      "full_unique_molecules": 4,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q16647": {
+      "herbs": 1,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 1,
+      "displayed_relations": 1,
+      "full_relations": 1,
+      "full_herbs": 1,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q16690": {
+      "herbs": 1,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 1,
+      "displayed_relations": 1,
+      "full_relations": 1,
+      "full_herbs": 1,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q16740": {
+      "herbs": 1,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 1,
+      "displayed_relations": 1,
+      "full_relations": 1,
+      "full_herbs": 1,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q16828": {
+      "herbs": 1,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 1,
+      "displayed_relations": 1,
+      "full_relations": 1,
+      "full_herbs": 1,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q16831": {
+      "herbs": 6,
+      "unique_molecules": 5,
+      "visual_molecule_copies": 9,
+      "displayed_relations": 9,
+      "full_relations": 16,
+      "full_herbs": 13,
+      "full_unique_molecules": 7,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q16832": {
+      "herbs": 6,
+      "unique_molecules": 3,
+      "visual_molecule_copies": 7,
+      "displayed_relations": 7,
+      "full_relations": 16,
+      "full_herbs": 15,
+      "full_unique_molecules": 4,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q495T6": {
+      "herbs": 1,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 1,
+      "displayed_relations": 1,
+      "full_relations": 1,
+      "full_herbs": 1,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q6R327": {
+      "herbs": 4,
+      "unique_molecules": 4,
+      "visual_molecule_copies": 5,
+      "displayed_relations": 5,
+      "full_relations": 5,
+      "full_herbs": 4,
+      "full_unique_molecules": 4,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q7Z3E1": {
+      "herbs": 1,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 1,
+      "displayed_relations": 1,
+      "full_relations": 1,
+      "full_herbs": 1,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q8N122": {
+      "herbs": 6,
+      "unique_molecules": 9,
+      "visual_molecule_copies": 9,
+      "displayed_relations": 9,
+      "full_relations": 14,
+      "full_herbs": 11,
+      "full_unique_molecules": 12,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q8N4C8": {
+      "herbs": 2,
+      "unique_molecules": 2,
+      "visual_molecule_copies": 2,
+      "displayed_relations": 2,
+      "full_relations": 2,
+      "full_herbs": 2,
+      "full_unique_molecules": 2,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q92743": {
+      "herbs": 1,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 1,
+      "displayed_relations": 1,
+      "full_relations": 1,
+      "full_herbs": 1,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q92876": {
+      "herbs": 1,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 1,
+      "displayed_relations": 1,
+      "full_relations": 1,
+      "full_herbs": 1,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q99460": {
+      "herbs": 1,
+      "unique_molecules": 8,
+      "visual_molecule_copies": 8,
+      "displayed_relations": 8,
+      "full_relations": 9,
+      "full_herbs": 1,
+      "full_unique_molecules": 9,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q99519": {
+      "herbs": 6,
+      "unique_molecules": 10,
+      "visual_molecule_copies": 14,
+      "displayed_relations": 14,
+      "full_relations": 24,
+      "full_herbs": 16,
+      "full_unique_molecules": 14,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q99523": {
+      "herbs": 1,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 1,
+      "displayed_relations": 1,
+      "full_relations": 1,
+      "full_herbs": 1,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q9BQF6": {
+      "herbs": 4,
+      "unique_molecules": 5,
+      "visual_molecule_copies": 6,
+      "displayed_relations": 6,
+      "full_relations": 6,
+      "full_herbs": 4,
+      "full_unique_molecules": 5,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q9BQT8": {
+      "herbs": 6,
+      "unique_molecules": 4,
+      "visual_molecule_copies": 9,
+      "displayed_relations": 9,
+      "full_relations": 32,
+      "full_herbs": 29,
+      "full_unique_molecules": 9,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q9BYW2": {
+      "herbs": 6,
+      "unique_molecules": 4,
+      "visual_molecule_copies": 7,
+      "displayed_relations": 7,
+      "full_relations": 24,
+      "full_herbs": 23,
+      "full_unique_molecules": 5,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q9GZV3": {
+      "herbs": 2,
+      "unique_molecules": 2,
+      "visual_molecule_copies": 2,
+      "displayed_relations": 2,
+      "full_relations": 2,
+      "full_herbs": 2,
+      "full_unique_molecules": 2,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q9GZV9": {
+      "herbs": 3,
+      "unique_molecules": 3,
+      "visual_molecule_copies": 4,
+      "displayed_relations": 4,
+      "full_relations": 4,
+      "full_herbs": 3,
+      "full_unique_molecules": 3,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q9H300": {
+      "herbs": 2,
+      "unique_molecules": 2,
+      "visual_molecule_copies": 2,
+      "displayed_relations": 2,
+      "full_relations": 2,
+      "full_herbs": 2,
+      "full_unique_molecules": 2,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q9H9B1": {
+      "herbs": 6,
+      "unique_molecules": 11,
+      "visual_molecule_copies": 12,
+      "displayed_relations": 12,
+      "full_relations": 44,
+      "full_herbs": 38,
+      "full_unique_molecules": 21,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q9HB21": {
+      "herbs": 1,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 1,
+      "displayed_relations": 1,
+      "full_relations": 1,
+      "full_herbs": 1,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q9NRX4": {
+      "herbs": 6,
+      "unique_molecules": 4,
+      "visual_molecule_copies": 6,
+      "displayed_relations": 6,
+      "full_relations": 17,
+      "full_herbs": 17,
+      "full_unique_molecules": 6,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q9NUV7": {
+      "herbs": 2,
+      "unique_molecules": 2,
+      "visual_molecule_copies": 2,
+      "displayed_relations": 2,
+      "full_relations": 2,
+      "full_herbs": 2,
+      "full_unique_molecules": 2,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q9NY97": {
+      "herbs": 3,
+      "unique_molecules": 1,
+      "visual_molecule_copies": 3,
+      "displayed_relations": 3,
+      "full_relations": 3,
+      "full_herbs": 3,
+      "full_unique_molecules": 1,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q9NYY3": {
+      "herbs": 2,
+      "unique_molecules": 2,
+      "visual_molecule_copies": 2,
+      "displayed_relations": 2,
+      "full_relations": 2,
+      "full_herbs": 2,
+      "full_unique_molecules": 2,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q9UIV1": {
+      "herbs": 6,
+      "unique_molecules": 2,
+      "visual_molecule_copies": 6,
+      "displayed_relations": 6,
+      "full_relations": 9,
+      "full_herbs": 9,
+      "full_unique_molecules": 3,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q9UL54": {
+      "herbs": 6,
+      "unique_molecules": 3,
+      "visual_molecule_copies": 8,
+      "displayed_relations": 8,
+      "full_relations": 21,
+      "full_herbs": 19,
+      "full_unique_molecules": 3,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q9UNM6": {
+      "herbs": 1,
+      "unique_molecules": 8,
+      "visual_molecule_copies": 8,
+      "displayed_relations": 8,
+      "full_relations": 9,
+      "full_herbs": 1,
+      "full_unique_molecules": 9,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q9Y5X9": {
+      "herbs": 5,
+      "unique_molecules": 11,
+      "visual_molecule_copies": 12,
+      "displayed_relations": 12,
+      "full_relations": 12,
+      "full_herbs": 5,
+      "full_unique_molecules": 11,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    },
+    "Q9Y657": {
+      "herbs": 4,
+      "unique_molecules": 3,
+      "visual_molecule_copies": 4,
+      "displayed_relations": 4,
+      "full_relations": 4,
+      "full_herbs": 4,
+      "full_unique_molecules": 3,
+      "display_rule": "Top 6 herbs by unique relation degree; Top 8 molecules per displayed herb by Swiss probability"
+    }
+  },
+  "scope": "Only relationships supplied by the current input CSV are indexed; no historical dataset is loaded. Each page uses UniProt accession as the grouping key and displays Top 6 herbs by relation degree and Top 8 molecules per herb by Swiss probability. Full relation counts and displayed relation counts are recorded per target."
+}
