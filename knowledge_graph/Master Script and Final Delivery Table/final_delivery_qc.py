@@ -14,7 +14,7 @@ DELIVERY = ROOT / "最终交付_SwissAD全分子_20260818"
 XLSX = DELIVERY / "01_Swiss预测靶点与AD交集.xlsx"
 CSV = DELIVERY / "02_中药-分子-靶点-AD完整路径.csv"
 PDF = DELIVERY / "03_剩余161个共同靶点网络可视化.pdf"
-OUT = ROOT / "knowledge_graph" / "master" / "final_delivery_qc.json"
+OUT = ROOT / "knowledge_graph" / "Master Script and Final Delivery Table" / "final_delivery_qc.json"
 
 XLSX_HEADERS = ["中药小分子", "UniProt编号", "靶点名称", "Gene Symbol", "预测概率", "查询网站"]
 CSV_HEADERS = [

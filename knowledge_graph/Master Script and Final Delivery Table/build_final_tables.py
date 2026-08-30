@@ -10,17 +10,17 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2] / "knowledge_graph"
 WORK = ROOT
-TASK1 = WORK / "subtask1" / "swiss_ad_common_targets_normalized_dedup.csv"
-TASK1_AUDIT = WORK / "subtask1" / "swiss_ad_intersection_edge_audit.csv"
-HERB_MOL = WORK / "subtask2" / "01_tcm_molecule_dedup_long_table.csv"
-TCMSP = WORK / "subtask2" / "02_tcm_molecule_tcmsp_targets_uniprot_dedup_long_table.csv"
-EVIDENCE = WORK / "subtask2" / "03_ad_evidence_uniprot_index.csv"
-UNIPROT = WORK / "master" / "uniprot_official_names_1035_targets.csv"
-TCMSP_SUPPLEMENT = WORK / "master" / "uniprot_completion_tcmsp_missing_targets.csv"
-OUT1 = WORK / "master" / "01_swiss_predicted_targets_ad_intersection_final.csv"
-OUT2 = WORK / "master" / "02_tcm_molecule_target_ad_full_paths_final.csv"
-DB = WORK / "master" / "final_join.sqlite"
-QC = WORK / "master" / "final_data_qc.json"
+TASK1 = WORK / "Intersection of Swiss predicted targets and AD targets" / "swiss_ad_common_targets_normalized_dedup.csv"
+TASK1_AUDIT = WORK / "Intersection of Swiss predicted targets and AD targets" / "swiss_ad_intersection_edge_audit.csv"
+HERB_MOL = WORK / "Traditional Chinese Medicine—Molecule—TCMSP Target Index Table" / "01_tcm_molecule_dedup_long_table.csv"
+TCMSP = WORK / "Traditional Chinese Medicine—Molecule—TCMSP Target Index Table" / "02_tcm_molecule_tcmsp_targets_uniprot_dedup_long_table.csv"
+EVIDENCE = WORK / "Traditional Chinese Medicine—Molecule—TCMSP Target Index Table" / "03_ad_evidence_uniprot_index.csv"
+UNIPROT = WORK / "Master Script and Final Delivery Table" / "uniprot_official_names_1035_targets.csv"
+TCMSP_SUPPLEMENT = WORK / "Master Script and Final Delivery Table" / "uniprot_completion_tcmsp_missing_targets.csv"
+OUT1 = WORK / "Master Script and Final Delivery Table" / "01_swiss_predicted_targets_ad_intersection_final.csv"
+OUT2 = WORK / "Master Script and Final Delivery Table" / "02_tcm_molecule_target_ad_full_paths_final.csv"
+DB = WORK / "Master Script and Final Delivery Table" / "final_join.sqlite"
+QC = WORK / "Master Script and Final Delivery Table" / "final_data_qc.json"
 
 
 def clean(value: object) -> str:

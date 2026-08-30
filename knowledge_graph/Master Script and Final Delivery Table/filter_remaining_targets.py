@@ -10,8 +10,8 @@ import openpyxl
 ROOT = Path(__file__).resolve().parents[2] / "knowledge_graph"
 OLD_XLSX = ROOT / "Swiss_AD共同靶点分析_20260814" / "最终交付" / "01_Swiss预测靶点与AD交集.xlsx"
 NEW_CSV = ROOT / "最终交付_SwissAD全分子_20260818" / "02_中药-分子-靶点-AD完整路径.csv"
-OUT = ROOT / "subtask3" / "remaining_targets_only_plot_input.csv"
-AUDIT = ROOT / "subtask3" / "new_old_targets_diff_audit.json"
+OUT = ROOT / "Script for Drawing Targeted Network Diagrams and QA Records" / "remaining_targets_only_plot_input.csv"
+AUDIT = ROOT / "Script for Drawing Targeted Network Diagrams and QA Records" / "new_old_targets_diff_audit.json"
 
 
 def old_targets() -> set[str]:
